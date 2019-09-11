@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewdispatch.Main3Activity">
+
+
+    <com.chuan_sir.viewbase.viewdispatch.CustomParentView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <com.chuan_sir.viewbase.viewdispatch.CustomSonView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="test"
+            android:onClick="mainBtnOnclick3"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:clickable="false"/>
+
+    </com.chuan_sir.viewbase.viewdispatch.CustomParentView>
+
+
+</RelativeLayout>
